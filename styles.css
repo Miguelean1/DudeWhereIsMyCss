@@ -1,0 +1,72 @@
+body {
+    background-color: #e3e5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #ffffff;
+    margin: 20% 20% 20% 20%;
+    padding: 10%;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.1);
+}
+.title {
+    text-align: center;
+    font-size:xx-large;
+    padding-bottom: 1px;
+    margin-bottom:1px;
+}
+.subtitle {
+    margin-top:10px;
+    padding-top: 1px;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.social-login {
+    height: 50px;
+     width: 300px;  
+     padding-left: 1px;
+     margin-left: 1px;
+     border-color: black;
+     background-color: white;
+}
+.google-btn {
+     height: 80%;
+     width: 90%;
+}
+.google-btn img {
+    width: 80%;
+    height: 60%;
+
+}
+
+.btn-text {
+
+}
+
+.fb-btn {
+
+}
+
+.or {
+
+}
+
+.email-login {
+
+}
+
+.cta-btn {
+    background-color: #4644b4;
+    height: 50px;
+    width: 300px;
+    border-radius: 8px;
+    color: white;
+    
+}
+.forget-pass{
+
+}
