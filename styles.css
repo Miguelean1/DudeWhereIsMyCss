@@ -99,15 +99,19 @@
   margin-top: 30px;
   margin-bottom: 30px;
   font-size: 20px;
-  position: relative;
+  display: flex;
   text-align: center;
+  align-items: center;
 }
 
-.or span {
-  background: white;
-  padding: 0 12px;
-  position: relative;
-  z-index: 1;
+.or::before,
+.or::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #ddd;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .email-login {
